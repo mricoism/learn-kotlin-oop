@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fbd86114-3ffa-4a5c-bcb1-ab94f49d42be" name="Changes" comment="Intialize project" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mricoism&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mricoism/learn-kotlin-oop.git&quot;,
+    &quot;accountId&quot;: &quot;c5326df0-d093-46c5-935d-4ea975ceb08e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2mobDj0r08LN3DOdKtOWTO0U2MA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.AbstractPropertiesAndFunctionKt.executor": "Run",
+    "Kotlin.AnonymousClassKt.executor": "Run",
+    "Kotlin.AnyClassKt.executor": "Run",
+    "Kotlin.CompanionObjectKt.executor": "Run",
+    "Kotlin.ConstructorKt.executor": "Run",
+    "Kotlin.DataClassKt.executor": "Run",
+    "Kotlin.DelegateKt.executor": "Run",
+    "Kotlin.DestructuringDeclarationKt.executor": "Run",
+    "Kotlin.EnumClassKt.executor": "Run",
+    "Kotlin.EqualsKt.executor": "Run",
+    "Kotlin.ExtensionFunctionKt.executor": "Run",
+    "Kotlin.HashCodeKt.executor": "Run",
+    "Kotlin.InheritanceKt.executor": "Run",
+    "Kotlin.InlineClassKt.executor": "Run",
+    "Kotlin.InnerClassKt.executor": "Run",
+    "Kotlin.InterfaceKt.executor": "Run",
+    "Kotlin.LateinitPropertiesKt.executor": "Run",
+    "Kotlin.LazyPropertiesKt.executor": "Run",
+    "Kotlin.ObjectKt.executor": "Run",
+    "Kotlin.ObservablePropertiesKt.executor": "Run",
+    "Kotlin.OperatorOverloadingKt.executor": "Run",
+    "Kotlin.PropertiesOverridingKt.executor": "Run",
+    "Kotlin.PropertyConstructorKt.executor": "Run",
+    "Kotlin.SealedClassKt.executor": "Run",
+    "Kotlin.SecondaryConstructorKt.executor": "Run",
+    "Kotlin.SetterGetterKt.executor": "Run",
+    "Kotlin.SingletonObjectKt.executor": "Run",
+    "Kotlin.SuperKeywordKt.executor": "Run",
+    "Kotlin.ToStringKt.executor": "Run",
+    "Kotlin.TypeAliasKt.executor": "Run",
+    "Kotlin.TypeCheckKt.executor": "Run",
+    "Kotlin.VisibilityModifierKt.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/code.id/Documents/learn/android/learn-kotlin-oop",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors",
+    "settings.editor.splitter.proportion": "0.305499"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.OperatorOverloadingKt">
+    <configuration name="DelegateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.DelegateKt" />
+      <module name="learn-kotlin-oop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DestructuringDeclarationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.DestructuringDeclarationKt" />
+      <module name="learn-kotlin-oop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LazyPropertiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.LazyPropertiesKt" />
+      <module name="learn-kotlin-oop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObservablePropertiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.ObservablePropertiesKt" />
+      <module name="learn-kotlin-oop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatorOverloadingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.OperatorOverloadingKt" />
+      <module name="learn-kotlin-oop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.OperatorOverloadingKt" />
+        <item itemvalue="Kotlin.DestructuringDeclarationKt" />
+        <item itemvalue="Kotlin.ObservablePropertiesKt" />
+        <item itemvalue="Kotlin.LazyPropertiesKt" />
+        <item itemvalue="Kotlin.DelegateKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbd86114-3ffa-4a5c-bcb1-ab94f49d42be" name="Changes" comment="" />
+      <created>1727745759382</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727745759382</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Intialize project">
+      <option name="closed" value="true" />
+      <created>1728540376760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728540376760</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Intialize project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intialize project" />
+  </component>
+</project>
