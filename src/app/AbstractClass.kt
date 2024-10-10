@@ -8,5 +8,5 @@ fun main() {
     println(jakarta.latitude)
     println(jakarta.latitude)
     println()
-    //
+    // hai
 }
