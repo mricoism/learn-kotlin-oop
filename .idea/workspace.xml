@@ -4,128 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbd86114-3ffa-4a5c-bcb1-ab94f49d42be" name="Changes" comment="Intialize project">
+    <list default="true" id="fbd86114-3ffa-4a5c-bcb1-ab94f49d42be" name="Changes" comment="test2">
+      <change afterPath="$PROJECT_DIR$/src/app/Exception.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/NullSafety.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ValidationException.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-kotlin-oop.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/ListOfContent.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/META-INF/learn-kotlin-oop.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/MainKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/AbstractClassKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/AbstractPropertiesAndFunctionKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/AnonymousClassKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/AnonymousClassKt$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/AnonymousClassKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/AnyClassKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/CompanionObjectKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/ConstructorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/DataClassKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/DelegateKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/DestructuringDeclarationKt$main$hasil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/DestructuringDeclarationKt$main$hasil2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/DestructuringDeclarationKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/EnumClassKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/EqualsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/ExtensionFunctionKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/HashCodeKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/InheritanceKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/InlineClassKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/InnerClassKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/InterfaceKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/LateinitPropertiesKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/LazyPropertiesKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/ObjectKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/ObservablePropertiesKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/OperatorOverloadingKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/PropertiesOverridingKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/PropertyConstructorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/SampleAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/SealedClassKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/SecondaryConstructorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/SetterGetterKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/SuperConstructorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/SuperKeywordKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/ToStringKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/TypeAliasKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/TypeAliasKt$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/TypeAliasKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/TypeCheckKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/VisibilityModifierKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Account$name$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Account$special$$inlined$observable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Action.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Application$Utilities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/BaseDelegate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/CertainDelegate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/CiefTechnicalOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Company.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Contact.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Country.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/ExecutiveCustomer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Fruit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/GameV1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/GameV2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Go$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Go.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Goverment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Handphone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/HomeroomTeacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Interaction$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Interaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Laptop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Lion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Location.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/ManagerV1$Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/ManagerV1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/ManagerV2$Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/ManagerV2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/MinMax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Minus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Modulo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/MoveA$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/MoveA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/MoveB$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/MoveB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/MyBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Operation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Plus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/PremiumCustomer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/SchoolKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/ShortDelegate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/SingletonObjectKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Smartphone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/SuperManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/System$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/System.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Team.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Television.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Tire.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Utilities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/WetTire.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Work$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data/Work.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/data2/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/ListOfContent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-kotlin-oop/ListOfContent.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/META-INF/learn-kotlin-oop.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-kotlin-oop/META-INF/learn-kotlin-oop.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/AbstractClassKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/AbstractClassKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListOfContent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListOfContent.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,9 +25,9 @@
         <option value="Kotlin Enum" />
         <option value="Kotlin Object" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -181,6 +68,7 @@
     "Kotlin.DestructuringDeclarationKt.executor": "Run",
     "Kotlin.EnumClassKt.executor": "Run",
     "Kotlin.EqualsKt.executor": "Run",
+    "Kotlin.ExceptionKt.executor": "Run",
     "Kotlin.ExtensionFunctionKt.executor": "Run",
     "Kotlin.HashCodeKt.executor": "Run",
     "Kotlin.InheritanceKt.executor": "Run",
@@ -189,6 +77,7 @@
     "Kotlin.InterfaceKt.executor": "Run",
     "Kotlin.LateinitPropertiesKt.executor": "Run",
     "Kotlin.LazyPropertiesKt.executor": "Run",
+    "Kotlin.NullSafetyKt.executor": "Run",
     "Kotlin.ObjectKt.executor": "Run",
     "Kotlin.ObservablePropertiesKt.executor": "Run",
     "Kotlin.OperatorOverloadingKt.executor": "Run",
@@ -223,7 +112,7 @@
       <recent name="data" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.AbstractClassKt">
+  <component name="RunManager" selected="Kotlin.ExceptionKt">
     <configuration name="AbstractClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.AbstractClassKt" />
       <module name="learn-kotlin-oop" />
@@ -238,15 +127,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazyPropertiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.LazyPropertiesKt" />
+    <configuration name="ExceptionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.ExceptionKt" />
       <module name="learn-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObservablePropertiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.ObservablePropertiesKt" />
+    <configuration name="NullSafetyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.NullSafetyKt" />
       <module name="learn-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -261,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ExceptionKt" />
+        <item itemvalue="Kotlin.NullSafetyKt" />
         <item itemvalue="Kotlin.AbstractClassKt" />
         <item itemvalue="Kotlin.OperatorOverloadingKt" />
         <item itemvalue="Kotlin.DestructuringDeclarationKt" />
-        <item itemvalue="Kotlin.ObservablePropertiesKt" />
-        <item itemvalue="Kotlin.LazyPropertiesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728540376760</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test2">
+      <option name="closed" value="true" />
+      <created>1728543333442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728543333442</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +199,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Intialize project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intialize project" />
+    <MESSAGE value="test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test2" />
   </component>
 </project>
