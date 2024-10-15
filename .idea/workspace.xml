@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbd86114-3ffa-4a5c-bcb1-ab94f49d42be" name="Changes" comment="test2">
-      <change afterPath="$PROJECT_DIR$/src/app/Exception.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/NullSafety.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ValidationException.kt" afterDir="false" />
+    <list default="true" id="fbd86114-3ffa-4a5c-bcb1-ab94f49d42be" name="Changes" comment="Null safety and Exception">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jetbrains_kotlin_reflect.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/Beta.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/Fancy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/NotBlank.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Annotation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Polymorphism.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Reflection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/ScopeFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/CreateProductRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/program/MyApplication.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-kotlin-oop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-kotlin-oop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/ListOfContent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-kotlin-oop/ListOfContent.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/META-INF/learn-kotlin-oop.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-kotlin-oop/META-INF/learn-kotlin-oop.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/AbstractClassKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-kotlin-oop/app/AbstractClassKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ListOfContent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListOfContent.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +33,9 @@
         <option value="Kotlin Object" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Data Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Annotation" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -57,8 +65,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
     "Kotlin.AbstractClassKt.executor": "Run",
     "Kotlin.AbstractPropertiesAndFunctionKt.executor": "Run",
+    "Kotlin.AnnotationKt.executor": "Run",
     "Kotlin.AnonymousClassKt.executor": "Run",
     "Kotlin.AnyClassKt.executor": "Run",
     "Kotlin.CompanionObjectKt.executor": "Run",
@@ -81,8 +91,11 @@
     "Kotlin.ObjectKt.executor": "Run",
     "Kotlin.ObservablePropertiesKt.executor": "Run",
     "Kotlin.OperatorOverloadingKt.executor": "Run",
+    "Kotlin.PolymorphismKt.executor": "Run",
     "Kotlin.PropertiesOverridingKt.executor": "Run",
     "Kotlin.PropertyConstructorKt.executor": "Run",
+    "Kotlin.ReflectionKt.executor": "Run",
+    "Kotlin.ScopeFunctionKt.executor": "Run",
     "Kotlin.SealedClassKt.executor": "Run",
     "Kotlin.SecondaryConstructorKt.executor": "Run",
     "Kotlin.SetterGetterKt.executor": "Run",
@@ -92,15 +105,19 @@
     "Kotlin.TypeAliasKt.executor": "Run",
     "Kotlin.TypeCheckKt.executor": "Run",
     "Kotlin.VisibilityModifierKt.executor": "Run",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/code.id/Documents/learn/android/learn-kotlin-oop",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "settings.editor.splitter.proportion": "0.305499"
   }
 }]]></component>
@@ -112,16 +129,9 @@
       <recent name="data" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ExceptionKt">
-    <configuration name="AbstractClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.AbstractClassKt" />
-      <module name="learn-kotlin-oop" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DestructuringDeclarationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.DestructuringDeclarationKt" />
+  <component name="RunManager" selected="Kotlin.PolymorphismKt">
+    <configuration name="AnnotationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.AnnotationKt" />
       <module name="learn-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,15 +144,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullSafetyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.NullSafetyKt" />
+    <configuration name="PolymorphismKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.PolymorphismKt" />
       <module name="learn-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperatorOverloadingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.OperatorOverloadingKt" />
+    <configuration name="ReflectionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.ReflectionKt" />
+      <module name="learn-kotlin-oop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScopeFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.ScopeFunctionKt" />
       <module name="learn-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PolymorphismKt" />
+        <item itemvalue="Kotlin.ScopeFunctionKt" />
+        <item itemvalue="Kotlin.ReflectionKt" />
+        <item itemvalue="Kotlin.AnnotationKt" />
         <item itemvalue="Kotlin.ExceptionKt" />
-        <item itemvalue="Kotlin.NullSafetyKt" />
-        <item itemvalue="Kotlin.AbstractClassKt" />
-        <item itemvalue="Kotlin.OperatorOverloadingKt" />
-        <item itemvalue="Kotlin.DestructuringDeclarationKt" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728543333442</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Null safety and Exception">
+      <option name="closed" value="true" />
+      <created>1728630726165</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728630726165</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +225,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Intialize project" />
     <MESSAGE value="test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test2" />
+    <MESSAGE value="Null safety and Exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Null safety and Exception" />
   </component>
 </project>
